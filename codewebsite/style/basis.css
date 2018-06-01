@@ -1,0 +1,149 @@
+
+
+p{
+	font-size: 11pt;
+	font-family: Libre Baskerville;
+	overflow: auto;
+    word-wrap: break-word;
+    text-align: start;
+    margin: 0 auto;
+	margin-left: 5%;
+}
+
+h1{
+	font-size: 25px;
+	text-align: center;
+	font-family: Libre Baskerville;
+	margin-top: 50px;
+	color: gray;
+}
+
+h2{
+	font-size: 25pt;
+	color: #FF6666;
+	font-family: Roboto;
+	overflow: auto;
+    word-wrap: break-word;
+    text-align: start;
+    margin: 0 auto;
+    margin-left: 5%;
+}
+
+h3{
+	text-align: center;
+	font-family: Roboto;
+	color: #FF6666;
+}
+/*Stuk voor de navigatie*/
+
+.inactive {
+	max-height: 0px;
+	transition: max-height 2s;
+	visibility: hidden;
+}
+
+.active{
+	max-height: 252px;
+	transition: max-height 2s;
+	z-index: 1;
+}
+
+.menutoggle {
+	background: url(../Images/menu.svg) no-repeat left center;
+	padding: .5em 1em;
+	border-radius: 4px;
+	z-index: 1;
+	position: absolute;
+	margin-left: 5%;
+	height: 13%;
+	width: 3%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.menutoggle a {
+	color: red;
+}
+
+.menutoggle:hover {
+	color: white;
+	background: url(../Images/menuHover.svg) no-repeat left center;
+}
+
+nav{
+	display: flex;
+	/*justify-content: space-around;*/
+	align-items: center;
+	text-align: left;
+	padding-left: 30px;
+	padding-bottom: 6px;
+	background-color: #CCCCCC;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+	margin-bottom: -27px;
+	width: 100%;
+	margin-left: -8px;
+	margin-top: -8px;
+
+}
+
+figure{
+	display: block;
+}
+
+img{
+	margin: 0 auto;
+	display: block;
+}
+
+/*Einde tijdlijn*/
+li{
+	color: white;
+	margin-top: 7px;
+}
+
+a:link{
+	color: white;
+	text-decoration: none;
+	font-family: Libre Baskerville;
+}
+
+a:visited{
+	color: white;
+}
+
+a:hover{
+	color: #fd676a;
+}
+
+p>a:link{
+	color: #fd676a;
+}
+
+p>a:hover{
+	color: #fd676a;;
+}
+
+p>a:visited{
+	color: #fd676a;
+}
+
+cite{
+	font-style: normal;
+}
+
+blockquote{
+	font-family: Libre Baskerville;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+ol>li{
+	color: black;
+	font-family: Libre Baskerville;
+	font-size: 15px;
+	margin-left: 5%;
+}

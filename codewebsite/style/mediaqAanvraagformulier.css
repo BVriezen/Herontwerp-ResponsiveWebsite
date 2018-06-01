@@ -1,0 +1,30 @@
+@media only screen and (min-width: 1024px){
+
+	.radioButtons{
+		margin-left: -4%;
+	}
+
+	.styledSelect select {
+		margin-left: 50%;
+	}
+
+	.left{
+		text-align: left;
+		margin-left: 1%;
+	}
+
+	.right{
+		margin-top: -61px;
+		text-align: right;
+		margin-right: 27%;
+	}
+
+	input[type="submit"]{
+		margin-left: 26%;
+		margin-top: 50px;
+		width: 229px;
+		height: 54px;
+	}
+}
+	
+	

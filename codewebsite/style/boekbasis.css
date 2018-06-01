@@ -1,0 +1,241 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+/*Opmaak voor de navigatie toggle*/
+.menutoggle {
+	background: url(../Images/menu.svg) no-repeat left center;
+	padding: .5em 1em;
+	border-radius: 4px;
+	z-index: 1;
+	position: absolute;
+	margin-left: 2%;
+	height: 13%;
+	width: 3%;
+	margin-top: 5px;
+}
+
+.menutoggle a {
+	color: red;
+}
+
+.menutoggle:hover {
+	color: white;
+	background: url(../Images/menuHover.svg) no-repeat left center;
+}
+
+.inactive {
+	max-height: 0px;
+	transition: max-height 2s;
+	visibility: hidden;
+}
+
+.active{
+	max-height: 145px;
+	transition: max-height 2s;
+	z-index: 1;
+}
+
+/*Opmaak voor blauw vlak*/
+.introblok{
+	width: 100%;
+	height: 50%;
+	background-color: #607994;
+	/*margin-right: -5px;*/
+}
+
+.introblok>h2{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 32px;
+	padding-bottom: 14px;
+	font-family: Libre Baskerville;
+}
+
+/*Basis opmaak*/
+p{
+	font-size: 14px;
+	font-family: Libre Baskerville;
+	margin-bottom: 15px;
+	line-height: 25px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+h1{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 35px;
+	font-family: Roboto;
+	color: #ce202a;
+}
+
+h2{
+	font-size: 20px;
+	font-family: Roboto;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+/*Stukje voor de citaten*/
+.cursief{
+	font-style: italic;
+	margin-bottom: 25px;
+}
+
+.cursief>a:link{
+	text-decoration: none;
+	color: #ce202a;
+}
+
+.cursief>a:visited{
+	color: #ce202a;
+}
+
+.enkel{
+	margin-bottom: -45px;
+	margin-top: -15px;
+}
+
+/*Opmaak voor de navigatie*/
+nav{
+	display: flex;
+	/*justify-content: space-around;*/
+	align-items: center;
+	text-align: left;
+	/*padding-left: 30px;*/
+	padding-top: 21px;
+	padding-bottom: 6px;
+	background-color: #CCCCCC;
+	width: 100%;
+	height: 500px;
+	position: relative;
+	z-index: 1;
+	margin-bottom: -27px;
+}
+
+nav>ul{
+	margin-left: 6%;
+}
+
+.hoofdmenu{
+	width: 100%;
+}
+
+.hoofdlijst>li{
+	list-style-type: circle;
+	padding-bottom: 5%;
+}
+
+.hoofdlijst>li>a:link{
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+	font-family: Libre Baskerville;
+}
+
+.hoofdlijst>li>a:visited{
+	color: white;
+}
+
+.hoofdlijst>li>a:hover{
+	color: #617993;
+}
+
+/*Opmaak voor hoofstukselectie*/
+.hoofdstuk>li{
+	display: inline;
+	color: #ce202a;
+	margin-top: 50%;
+	font-family: Libre Baskerville;
+}
+
+.hoofdstuk>li>a:link{
+	display: block;
+	color: #ce202a;
+	text-decoration: none;
+	border-color: black;
+	border-style: dotted;
+	border-left-style: none;
+	border-right-style: none;
+	border-top-style: none;
+	border-width: 0.5px;
+	height: 50px;
+	margin-bottom: -21px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.hoofdstuk>li>a:visited{
+	color: #ce202a;
+}
+
+.hoofdstuk>li>a:hover{
+	background-color: #ce202a;
+	color: white;
+	border-bottom-style: none;
+}
+
+/*Opmaak voor afbeeldingen*/
+figure{
+	margin-bottom: 15px;
+}
+
+img{
+	margin: 0 auto;
+	display: block;
+}
+
+figcaption{
+	text-align: center;
+	font-family: Libre Baskerville;
+	font-style: italic;
+	font-size: 14px;
+}
+
+/*Opmaak voor verwijzingen*/
+.linken>a:link{
+	color: #ce202a;
+	text-decoration: none;
+	font-family: Libre Baskerville;
+	padding-left: 5%;
+}
+
+.linken>a:hover{
+	color: #ce202a;
+}
+
+.linken>a:visited{
+	color: #ce202a;
+}
+
+.ref{
+	margin-bottom: 20px;
+	margin-top: 32px;
+}
+
+/*Opmaak voor de footer*/
+.footer{
+	background-color: black;
+	width: 100%;
+	height: 20%;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+.footer>p{
+	color: white;
+	padding-top: 15px;
+}
+
+.footer>p>a:link{
+	text-decoration: none;
+	color: #b50711;
+}
+
+.footer>p>a:visited{
+	color: #b50711;
+}

@@ -1,0 +1,61 @@
+input[type="radio"] {
+	width: 5%;
+	margin-right: 11%;
+}
+
+.radioButtons{
+	display: flex;
+	justify-content: space-around;
+	padding-left: 10%;
+	width: 300px;
+	margin: 0 auto;
+}
+
+input[type="submit"] {
+	-webkit-appearance: none;
+	background-color: white;
+	font-family: Libre Baskerville;
+	color: #ce202a;
+	font-size: 15px;
+	border-radius: 3px;
+	border: 0.5px solid #ce202a;
+	width: 200px;
+	height: 48px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 35px;
+	margin-bottom: 20px;
+}
+
+input[type="submit"]:hover{
+	background-color: #ce202a;
+	color: white;
+}
+
+.styledSelect select {
+   background: transparent;
+   width: 268px;
+   padding: 5px;
+   font-size: 16px;
+   line-height: 1;
+   border: 0.5px solid #ce202a;
+   border-radius: 0;
+   height: 34px;
+   -webkit-appearance: none;
+   display: block;
+   margin: 0 auto;
+   text-align: center;
+   text-align-last: center;
+   }
+
+label{
+	height: 25px;
+	font-family: Libre Baskerville;
+	/*margin-left: 13%;*/
+}
+
+.center{
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 25px;
+}

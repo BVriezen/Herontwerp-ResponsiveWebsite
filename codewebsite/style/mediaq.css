@@ -1,0 +1,59 @@
+@media only screen and (min-width: 321px){
+	p{
+		font-size: 15px;
+	}
+	.paragraaf{
+		width: 100%;
+	}
+
+	.hoofdstuk{
+		width: 100%;
+	}
+
+	figure{
+		/*margin-left: 12%;
+		margin-right: 2%;*/
+		margin: 0 auto;
+		margin-top: 3%;
+	}
+
+	.onderlijn{
+		width: 65%;
+	}
+}
+
+@media only screen and (min-width: 612px){
+	.onderlijn{
+		margin: 0 auto;
+		margin-top: 5%;
+	}
+}
+
+@media only screen and (min-width: 874px){
+	p{
+		font-size: 18px;
+	}
+
+	figure{
+		margin-right: 33%;
+		margin-top: 3%;
+	}
+}
+
+@media only screen and (min-width: 995px){
+	p{
+		width: 50%;
+	}
+
+	figure{
+		margin-right: 8%;
+		margin-top: -280px;
+	}
+}
+
+@media only screen and (min-width: 1128px){
+	figure{
+		margin-left: 62%;
+		margin-top: -20%;
+	}
+}

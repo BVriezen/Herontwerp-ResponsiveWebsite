@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<hmtl>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Boek Responsive Web Design, Boekaanvraagformulier</title>
+		<link href="style/boekbasis.css" type="text/css" rel="stylesheet" />
+		<link href="style/mediaqboek.css" type="text/css" rel="stylesheet" />
+		<link href="style/aanvraagformulier.css" type="text/css" rel="stylesheet" />
+		<link href="style/mediaqAanvraagformulier.css" type="text/css" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		 <script src="Javascript/menuboek.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<nav class="hoofdmenu inactive" id="menu">
+			<ul class="hoofdlijst">
+				<li><a href="boekhome.html">Homepagina</a></li>
+				<li><a href="aanvraagformulier.html">Boekaanvraag</a></li>
+				<li><a href="homepagina.html">Responsive Portfolio</a></li>
+				<li><a href="tijdlijn.html">Tijdlijn</a></li>
+				<li>
+					<form>
+                                <input type="text" placeholder="Search..." required>
+                                <input type="button" value="Search">
+					</form>
+				</li>
+			</ul>
+		</nav>
+
+	<div class="menutoggle" id="menutoggle"><a href="#menu"></a></div>
+      
+		<div class="introblok">
+			<h2>Resilient<br />web design<br /><br />by Jeremy Keith</h2>
+		</div>
+		<div class="inhoudScheider">
+		<div class="hoofdstukselect">
+			<ul class="hoofdstuk">
+				<li><a href="introduction.html">Introduction</a></li>      <br />
+				<li><a href="foundations.html">Chapter 1 Foundations</a></li>   <br />
+				<li><a href="#">Chapter 2 Materials</a></li>               <br />
+				<li><a href="#">Chapter 3 Visions</a></li>                 <br />
+				<li><a href="#">Chapter 4 Languages</a></li>               <br />
+				<li><a href="#">Chapter 5 Layers</a></li>                  <br />
+				<li><a href="#">Chapter 6 Steps</a></li>                   <br />
+				<li><a href="#">Chapter 7 Challenges</a></li>              <br />
+				<li><a href="#">About the author</a></li>                  <br />
+				<li><a href="#">Index</a></li>
+			</ul>
+		</div>
+		<div class="inhoud">
+			<form action="#" method="get">
+				
+				<h1>Download Audio book</h1>
+					<h2 class="center left">Select format</h2>
+				<div class="radioButtons">
+					<label for="mp3">MP3</label>
+					<input type="radio" name="format" id="mp3" value="mp3">
+						
+					<label for="wav">WAV</label>
+					<input type="radio" name="format" id="wav" value="wav">
+						
+					<label for="ogg">OGG</label>
+					<input type="radio" name="format" id="ogg" value="ogg">
+				</div>
+
+				<h2 class="center right">Select Audio Speed</h2>
+
+				<!-- <select name="speed">
+					<option value="0.5">0.5</option>
+					<option value="1.0">1.0</option>
+					<option value="1.5">1.5</option>
+					<option value="2.0">2.0</option> -->
+
+				<div class="styledSelect">
+					<select>
+						<option>0.5</option>
+						<option>1.0</option>
+						<option>1.5</option>
+						<option>2.0</option>
+					</select>
+				</div>
+
+				<input type="submit" name="donwload" value="Download" />
+			
+			</form>
+		</div>
+	</div>
+		<div class="footer ruimte">
+			<p>Resilient Web Design was written and produced by <a href="https://adactio.com" class="v-card" rel="me">Jeremy Keith</a>, and typeset in <a href="https://edwardtufte.github.io/et-book/"><abbr>ET</abbr>&nbsp;Book</a>.
+			</p>
+			<p>
+				Licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution‐ShareAlike 4.0 International&nbsp;License</a>
+			</p>
+		</div>
+	</body>
+</hmtl>

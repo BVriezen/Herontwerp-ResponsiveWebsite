@@ -1,0 +1,94 @@
+.blok{
+	height: 300px;
+	width: 350px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 5%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex-direction: column;
+}
+
+/*Kleuren van de verschillende blokken*/
+.opdracht1a{
+	background-color: #DAE0F2;
+}
+
+.opdracht1b{
+	background-color: #FD676A;
+}
+
+.opdracht2a{
+	background-color: #EFE9E7;
+}
+
+.opdracht2Onderbouwing{
+	background-color: #F7B2B7;
+}
+
+.opdracht3{
+	background-color: #DAE0F2;
+}
+
+.excursie{
+	background-color: #FD676A;
+}
+
+.reflectie{
+	background-color: #EFE9E7;
+}
+
+/*Knop opmaak voor de blokken*/
+.knop{
+	width: 100px;
+	height: 40px;
+	font-size: 15px;
+	font-family: Libre Baskerville;
+	border-radius: 10px;
+	background-color: white;
+	color: grey;
+	font-style: italic;
+	border-style: none;
+	margin-bottom: 20px;
+}
+
+.knop:hover{
+	text-decoration: underline;
+}
+
+.blokHeader{
+	background-color: white;
+	text-align: center;
+	border-radius: 10px;
+	align-items: flex-start;
+	margin-bottom: 80px;
+	width: 200px;
+}
+
+.blokHeader>h3{
+	font-family: Libre Baskerville;
+	font-size: 22px;
+	color: grey;
+	font-style: italic;
+}
+
+.extra{
+	margin-bottom: 77px;
+}
+
+.intro>p{
+	font-family: Libre Baskerville;
+}
+
+img{
+	margin: 0 auto;
+	display: block;
+}
+
+figcaption{
+	text-align: center;
+	font-family: Libre Baskerville;
+	font-style: italic;
+	font-size: 14px;
+}

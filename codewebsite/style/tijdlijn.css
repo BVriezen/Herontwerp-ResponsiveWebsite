@@ -1,0 +1,53 @@
+/*Voor de tijdlijn specifiek*/
+.tijdlijn{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.tijdlijn:before{
+	content: '';
+	position: fixed;
+	top: 0px;
+	left: 10px;
+	width: 0px;
+	height: 100%;
+	border: 5px solid #FF6666;
+	z-index: -1;
+}
+
+figure{
+	margin: 0 0 0 0;
+	margin-right: 3%;
+}
+
+.hoofdstuk{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	/*width: 100%;*/
+	margin-top: 10%;
+	margin-bottom: 1%;
+}
+
+.paragraaf{
+	width: 45%;
+	margin-right: 0%;
+	margin-left: 10%;
+	box-sizing: border-box;
+	padding: 0px 0px 0px 0px;
+	text-align: justify;
+	word-spacing: initial;
+}
+
+.onderlijn{
+	height: 1%;
+	width: 50%;
+	background-color: grey;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+
+.ruimte{
+	margin-top: 45px;
+}

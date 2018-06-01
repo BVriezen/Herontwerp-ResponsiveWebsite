@@ -1,0 +1,33 @@
+.space{
+	margin-top: 90px;
+}
+
+@media only screen and (min-width: 768px){
+
+	.inhoud{
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.bron{
+		width: 70%;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+}
+
+@media only screen and (min-width: 995px){
+	p{
+		width: 90%;
+		margin-right: 5%;
+	}
+
+	.bron{
+		width: 50%;
+	}
+}
+
+h2{
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
